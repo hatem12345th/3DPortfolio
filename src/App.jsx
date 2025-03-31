@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 
-import { About,Navbar,Hero,Tech,Experience,Works,Feedbacks,Contact,
-  EarthCanvas,BallCanvas,ComputersCanvas,StarsCanvas } from "./components"
+import { About,Navbar,Hero,Tech,Works,Feedbacks,Contact,
+  StarsCanvas } from "./components"
 
 
   
@@ -19,7 +19,6 @@ export default function App() {
             <Hero />
          </div>
           <About />
-          <Experience />
           <Tech />
           <Works />
           <Feedbacks />

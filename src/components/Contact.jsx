@@ -36,9 +36,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    //5f4BI_Lah1qR_COs8
-//template_syzws3g
-//service_3i9abxa
+    
 
     emailjs
       .send(
